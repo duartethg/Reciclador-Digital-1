@@ -1,0 +1,97 @@
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+  overflow: hidden;
+}
+body {
+  background: url(gray.jpg);
+  display: flex;
+  position: relative;
+  background-position: center;
+  background-size: cover;
+  justify-items: center;
+  overflow: hidden;
+  display: block;
+}
+.logo {
+  height: 105px;
+  margin-bottom: 30px;
+  margin: 20px;
+}
+
+.menu {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  background-color: #1c1c1cbf;
+  box-shadow: 8px 6px 15px black;
+}
+.menu ul li {
+  display: flex;
+
+  list-style-type: none;
+  display: inline-block;
+  padding: 10px 20px;
+}
+.menu li a {
+  color: rgb(255, 255, 255);
+  text-decoration: none;
+  font-size: 20px;
+  font-weight: bold;
+}
+.menu li a:hover {
+  color: #004700;
+}
+button {
+  background-color: #004700;
+  border-radius: 20px;
+  color: white;
+  font-weight: bold;
+  text-transform: uppercase;
+  padding: 10px;
+  transition: 0.1.4s;
+  margin: 30px;
+  margin-left: 230px;
+  transition: 1.02s; 
+  box-shadow: 5px 5px 5px black;
+}
+button:hover {
+  transform: scale(1.2);
+  cursor: pointer;
+  background-color: #1c1c1c; 
+  transform: scale(1.05);
+}
+
+.conteudo h1 {
+  font-size: 50px;
+  text-align: center;
+  color: white;
+
+  border-bottom: 2px solid;
+}
+.conteudo p {
+  text-align: center;
+  color: rgb(255, 255, 255);
+  padding: 10px;
+}
+.conteudo {
+  width: 600px;
+  margin-left: 500px;
+  margin-top: 90px;
+}
+span {
+  color: #03b524;
+  font-weight: bold;
+  font-style: italic;
+}
+.social-links img {
+  height: 30px;
+  margin: 4px;
+  cursor: pointer;
+}
+
+.social-links {
+  display: flex;
+  margin-left: 230px;
+}

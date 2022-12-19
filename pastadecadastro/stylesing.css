@@ -1,0 +1,87 @@
+@charset "UTF-8";
+
+body {
+  background-color: #ffffff;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  overflow: visible;
+  background: url(gray.jpg);
+  background-position: center;
+  background-size: cover;
+}
+nav a {
+  color: white;
+  text-decoration: none;
+  font-size: 20px;
+  cursor: pointer;
+  margin: 10px;
+}
+nav a:hover {
+  color: #004700;
+}
+
+.areadecadastro {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+  padding: 100px;
+  display: flex;
+}
+.cadastro {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  background-color: #0000007e;
+  width: 400px;
+  height: 500px;
+  border-radius: 20px;
+  box-shadow: 8px 6px 15px black;
+}
+
+input {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  background-color: #00000060;
+  padding: 10px;
+  text-decoration: none;
+  width: 350px;
+  height: 40px;
+  margin: 7px;
+  border-radius: 10px;
+  border: none;
+  color: white;
+  transition: 1.05s;
+}
+section button {
+  background-color: #004700;
+  width: 350px;
+  height: 44px;
+  margin: 10px;
+  border-radius: 10px;
+  color: white;
+  cursor: pointer;
+  text-transform: uppercase;
+  font-weight: bold;
+  transition: 1.04s;
+}
+section button:hover {
+  background-color: #353d40;
+  transform: scale(1.05);
+  cursor: pointer;
+}
+.logo img {
+  height: 80 px;
+  width: 80px;
+  margin: 5px;
+}
+.navbar a {
+  text-decoration: none;
+  color: black;
+}
+a :hover {
+  color: white;
+  margin-left: 5px;
+}
