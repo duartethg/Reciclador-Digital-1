@@ -1,43 +1,105 @@
 <!DOCTYPE html>
 <html lang="pt-br">
+
 <head>
-    <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="homestyle.css">
-    <link rel="shortcut icon" href="../cropped-cropped-cropped-reciclador-1-150x150.png" type="image/x-icon">
-    <title>Reciclador Digital</title>   
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="homestyle.css" />
+    <link rel="shortcut icon" href="../cropped-cropped-cropped-reciclador-1-150x150.png" type="image/x-icon" />
+    <!--CSS*BOOTSTRAO-->
+    <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.11.6/dist/umd/popper.min.js"
+        integrity="sha384-oBqDVmMz9ATKxIep9tiCxS/Z9fNfEXiDAYTujMAeBAsjFuCZSmKbSSUnQlmh/jp3"
+        crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.3/dist/js/bootstrap.min.js"
+        integrity="sha384-cuYeSxntonz0PPNlHhBs68uyIAVpIIOZZ5JqeqvYYIcEL727kskC66kF92t6Xl2V"
+        crossorigin="anonymous"></script>
+    <link rel="stylesheet" href="css/bootstrap.min.css">
+    <script src="js/bootstrap.min.js"> </script>
+    <title>Reciclador Digital</title>
 </head>
-<body> 
-    <div class="menu">
-        <img class="logo" src="cropped-cropped-cropped-reciclador-1-150x150.png" >
-        <ul>
-            <li><a href="">Quem somos</a></li>
-            <li><a href="">Serviços</a></li>
-            <li><a href="">Contato</a></li>
-        </ul>
-        <a href="../pastadecadastro/teladecadastro.html"><button type="button">Cadastre-se</button></a>
-    </div> 
-    <section>
-        <div class="conteudo"> 
-           
-            <h1>Seja Bem-vindo ao <span>Reciclador Digital</span> </h1> 
-            <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. <br> Neque voluptatem modi corrupti impedit repudiandae tempore, cupiditate quia corporis molestiae, <br> earum reiciendis. Neque, voluptates. Ad odio <br> numquam placeat animi est molestiae. Lorem ipsum dolor sit amet consectetur adipisicing elit. Dolor at, excepturi ab odio non alias sint voluptates mollitia dolores beatae, expedita magni incidunt illo, officiis et labore ea facilis dolore. Lorem ipsum dolor, sit amet consectetur adipisicing elit. Necessitatibus illo nisi aut fugiat veritatis expedita debitis repudiandae id optio. Reprehenderit nam eaque ducimus expedita odio dolores dicta illo deleniti beatae? Lorem ipsum dolor, sit amet consectetur adipisicing elit. Maxime voluptatibus amet ut assumenda? Minus nemo, deserunt nihil, quisquam placeat praesentium et debitis dolores voluptates, odio non ad ipsam impedit vitae. </p> 
-            <a href="../login/login.html"><button type="button">QUERO SABER MAIS</button></a> 
-            <div class="social-links">
-                <img src="ig.png">  
-                <img src="fb.png"> 
-                <img src="info.png">
-                <img src="share.png">
+
+<body>
+    <nav>
+        <div class="menu">
+            <img class="logo" src="cropped-cropped-cropped-reciclador-1-150x150.png" />
+            <ul>
+                <li><a href="">Quem somos</a></li>
+                <li><a href="">Serviços</a></li>
+                <li><a href="">Contato</a></li>
+            </ul>
+            <a href="../pastadecadastro/teladecadastro.html"><button type="button">Cadastre-se</button></a>
+        </div>
+    </nav>
+    <main>
+        <div class="circle"></div>
+        <section id="sec01">
+            <div class="conteudo">
+                <h1>Seja Bem-vindo ao <span>Reciclador Digital</span></h1>
+                <p>
+                    Lorem ipsum dolor sit, amet consectetur adipisicing elit. <br />
+                    Neque voluptatem modi corrupti impedit repudiandae tempore,
+                    cupiditate quia corporis molestiae, <br />
+                    earum reiciendis. Neque, voluptates. Ad odio <br />
+                    numquam placeat animi est molestiae. Lorem ipsum dolor sit amet
+                    consectetur adipisicing elit. Dolor at, excepturi ab odio non alias
+                    sint voluptates mollitia dolores beatae, expedita magni incidunt
+                    illo, officiis et labore ea facilis dolore. Lorem ipsum dolor, sit
+                    amet consectetur adipisicing elit. Necessitatibus illo nisi aut
+                    fugiat veritatis expedita debitis repudiandae id optio.
+                    Reprehenderit nam eaque ducimus expedita odio dolores dicta illo
+                    deleniti beatae? Lorem ipsum dolor, sit amet consectetur adipisicing
+                    elit. Maxime voluptatibus amet ut assumenda? Minus nemo, deserunt
+                    nihil, quisquam placeat praesentium et debitis dolores voluptates,
+                    odio non ad ipsam impedit vitae.
+                </p>
+                <a href="../login/login.html"><button type="button">QUERO SABER MAIS</button></a>
+                <div class="social-links">
+                    <img src="ig.png" />
+                    <img src="fb.png" />
+                    <img src="info.png" />
+                    <img src="share.png" />
+                </div>
             </div>
-    </section>
+        </section>
+        <section id="destaques"> 
+            
+            <div id="carouselExampleIndicators" class="carousel slide" data-bs-ride="true">
+                <div class="carousel-indicators">
+                    <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="0"
+                        class="active" aria-current="true" aria-label="Slide 1"></button>
+                    <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="1"
+                        aria-label="Slide 2"></button>
+                    <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="2"
+                        aria-label="Slide 3"></button>
+                </div>
+                <div class="carousel-inner">
+                    <div class="carousel-item active">
+                        <img src="metal-1-p4p6hhcjcb3ky8dse3imc22r7wtxmhdubhjpe1fywa.png" class="d-block w-100" alt="...">
+                    </div>
+                    <div class="carousel-item">
+                        <img src="plastico-1-p4p6lw79fb51gbz1mi6kjfznm12yrbwh9bsrhswfoq.png" class="d-block w-100" alt="...">
+                    </div>
+                    <div class="carousel-item">
+                        <img src="wwwr.jpg" class="d-block w-100" alt="...">
+                    </div>
+                </div>
+                <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleIndicators"
+                    data-bs-slide="prev">
+                    <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                    <span class="visually-hidden">Previous</span>
+                </button>
+                <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleIndicators"
+                    data-bs-slide="next">
+                    <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                    <span class="visually-hidden">Next</span>
+                </button>
+            </div>
+        </section> 
+        <section id="informacoes">
+             
+        </section>
+    </main>
 </body>
+
 </html>
-    
-
-
-    
-
-    
-        
-    

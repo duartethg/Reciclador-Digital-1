@@ -6,30 +6,27 @@
 }
 body {
   background: url(gray.jpg);
-  display: block;
   background-position: center;
   background-size: cover;
   overflow: auto;
   justify-items: center;
 }
+
 nav {
   background-color: #0000009d;
   display: flex;
   flex-wrap: nowrap;
   justify-content: space-between;
   height: 150px;
+  align-items: center;
+  justify-content: center;
   box-shadow: 8px 6px 15px black;
 }
 
-nav input {
-  height: 30px;
-  width: 600px;
-  margin: 60px;
-  border-radius: 20px;
-  background-color: azure;
-  padding: 20px;
-  font-weight: bold;
+.container-fluid form {
+  width: 100vh;
 }
+
 nav input:hover {
   background-color: rgba(240, 255, 255, 0.804);
   color: rgb(0, 0, 0);
@@ -43,7 +40,10 @@ ul {
   list-style-type: none;
   display: inline-flex;
   align-items: center;
+  margin-right: 10vh;
+  width: 150vh;
 }
+
 ul li a {
   color: white;
   text-decoration: none;
@@ -54,71 +54,20 @@ a:hover {
   color: #004700;
   transform: scale(1.1);
 }
+/*MAIN*/
 section {
   background-color: rgba(31, 31, 31, 0.77);
-  height: 300px;
-  margin-top: 300px;
+
   display: flex;
   justify-content: center;
   align-items: center;
 }
-section .plastico img,
-.metal img,
-.papel img {
-  height: 200px;
-  padding: 20px;
-  cursor: pointer;
-  border-radius: 40px;
-  box-shadow: 3px 3px 3px black;
-}
-section .plastico button {
-  display: flex;
-  margin-left: 100px;
-  background-color: #a61f1f;
-  color: white;
-  padding: 10px;
-  border-radius: 18px;
-  cursor: pointer;
-  transition: 1.1s;
-  text-transform: uppercase;
-}
-section .metal button {
-  display: flex;
-  margin-left: 100px;
-  background-color: #f2ba12;
-  color: white;
-  width: 90px;
-  padding: 10px;
-  padding-left: 25px;
-  border-radius: 18px;
-  cursor: pointer;
-  transition: 1.1s;
-  text-transform: uppercase;
-}
-section .papel button {
-  display: flex;
-  margin-left: 100px;
-  background-color: #003366;
-  color: #ffffff;
-  padding: 10px;
-  padding-left: 25px;
-  width: 90px;
-  cursor: pointer;
-  border-radius: 18px;
-  transition: 1.1s;
-  text-transform: uppercase;
-}
-section button:hover {
-  background-color: dimgray;
-  transform: scale(1.1);
-}
+
 section .metal img {
   height: 200px;
   padding: 20px;
 }
-button:hover {
-  background-color: dimgray;
-}
+
 main {
   background-color: rgb(20, 19, 19);
   height: 100px;
@@ -129,6 +78,26 @@ main {
   justify-content: center;
   color: white;
   font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+#carouselExampleIndicators {
+  width: 180vh;
+  margin-top: 5vh;
+}
+
+#carouselExampleIndicators img {
+  height: 40vh;
+}
+#content01 .card {
+  width: 40vh;
+  background-color: #424242;
+  height: 60vh;
+  margin: 5vh;
+}
+#content01 .card p {
+  color: white;
+}
+#content01 .card h5 {
+  color: white;
 }
 .pesquisa {
   display: flex;

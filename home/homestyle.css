@@ -2,29 +2,33 @@
   padding: 0;
   margin: 0;
   box-sizing: border-box;
-  overflow: hidden;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
 }
-body {
-  background: url(gray.jpg);
-  display: flex;
-  position: relative;
-  background-position: center;
-  background-size: cover;
-  justify-items: center;
-  overflow: hidden;
-  display: block;
-}
+/*NAVBAR*/
+
 .logo {
   height: 105px;
   margin-bottom: 30px;
   margin: 20px;
+} 
+nav button {
+  background-color: #004700;
+  border-radius: 20px;
+  color: white;
+  text-transform: uppercase;
+  padding: 5px;
+  transition: 0.1.4s;
+  transition: 1.02s;
+  
+  box-shadow: 5px 5px 5px black;
 }
+  
 
 .menu {
   display: flex;
   align-items: center;
   justify-content: space-between;
-  background-color: #1c1c1cbf;
+  background-color: rgb(58, 58, 58);
   box-shadow: 8px 6px 15px black;
 }
 .menu ul li {
@@ -43,7 +47,22 @@ body {
 .menu li a:hover {
   color: #004700;
 }
-button {
+/*MAIN*/
+
+#sec01 {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  height: 80vh;
+  flex-direction: column;
+}
+
+body {
+  background: url(gray.jpg);
+  background-position: center;
+  background-size: cover;
+}
+.conteudo button {
   background-color: #004700;
   border-radius: 20px;
   color: white;
@@ -51,36 +70,37 @@ button {
   text-transform: uppercase;
   padding: 10px;
   transition: 0.1.4s;
-  margin: 30px;
-  margin-left: 230px;
-  transition: 1.02s; 
+  transition: 1.02s;
   box-shadow: 5px 5px 5px black;
 }
-button:hover {
+
+.conteudo button:hover {
   transform: scale(1.2);
   cursor: pointer;
-  background-color: #1c1c1c; 
+  background-color: #1c1c1c;
   transform: scale(1.05);
 }
-
+.conteudo {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+}
 .conteudo h1 {
-  font-size: 50px;
+  font-size: 60px;
   text-align: center;
   color: white;
-
-  border-bottom: 2px solid;
+  border-bottom: 2px solid rgb(127, 127, 127);
 }
+
 .conteudo p {
   text-align: center;
   color: rgb(255, 255, 255);
   padding: 10px;
+  width: 120vh;
 }
-.conteudo {
-  width: 600px;
-  margin-left: 500px;
-  margin-top: 90px;
-}
-span {
+
+.conteudo span {
   color: #03b524;
   font-weight: bold;
   font-style: italic;
@@ -93,5 +113,16 @@ span {
 
 .social-links {
   display: flex;
-  margin-left: 230px;
+  align-items: center;
+  justify-content: center;
+  margin: 4vh;
 }
+.card {
+  width: 50vh;
+}
+#carouselExampleIndicators {
+  width: 100%;
+}  
+#carouselExampleIndicators img{
+   height: 50vh;
+} 
