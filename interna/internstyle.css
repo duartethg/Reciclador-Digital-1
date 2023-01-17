@@ -22,7 +22,9 @@ nav {
   justify-content: center;
   box-shadow: 8px 6px 15px black;
 }
-
+nav a:hover {
+  color: #004700;
+}
 .container-fluid form {
   width: 100vh;
 }

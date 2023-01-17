@@ -24,7 +24,9 @@
   
 }
   
-
+nav a {
+  color:  #004700;
+}
 .menu {
   display: flex;
   align-items: center;
