@@ -16,10 +16,9 @@ body {
   background-size: cover;
   position: relative;
 }
-nav a {
-  color: white;
+nav img{
+  height: 5vh; 
   margin: 10px;
-  font-size: 20px;
 }
 .arealogin {
   display: flex;
