@@ -50,19 +50,49 @@ a:hover {
 /*NAVBAR*CLOSE*/
 
 main {
-  height: 90vh;
-  background-color: blue; 
+  height: 100%;
+
   display: grid; 
   grid-template-columns: 3fr 1fr ;
 }
 #sec01 {
-  background-color: red;
-  height: 90vh;
-  width: 150vh;  
+  
 
+  height: 90vh;
+  width: 150vh;
+  box-shadow: 2px 3px 10px black;
+
+} 
+.content{
+  display: flex; 
+  align-items: center; 
+  justify-content: center; 
+  height: 60vh;
+ 
 }
 #sec02 {
-  background-color: red;
-  height: 90vh;
+  box-shadow: 2px 3px 10px black;
+  height: 110vh;
   width: 50vh;
+} 
+ .card-group {
+  display: flex; 
+  justify-content: center;
+  width: 130vh; 
+  height: 50vh;
+  
+} 
+.card-group .card{
+  margin: 3vh;
+}
+#carouselExampleIndicators{
+  height: 30vh;
+}
+#carouselExampleIndicators img{
+  width: 100%; 
+  height: 30vh;
+} 
+footer{
+  background-color: rgb(43, 43, 43); 
+  color: white;
 }
