@@ -4,10 +4,11 @@
   box-sizing: border-box;
   font-family: Verdana, Geneva, Tahoma, sans-serif;
 }
-
+body {
+}
 /*NAVBAR*/
 nav {
-  background-color: #0000009d;
+  background-color: #000000d3;
   display: flex;
   flex-wrap: nowrap;
   justify-content: space-between;
@@ -52,47 +53,44 @@ a:hover {
 main {
   height: 100%;
 
-  display: grid; 
-  grid-template-columns: 3fr 1fr ;
+  display: grid;
+  grid-template-columns: 3fr 1fr;
 }
 #sec01 {
-  
-
-  height: 90vh;
+  height: 105vh;
   width: 150vh;
   box-shadow: 2px 3px 10px black;
-
-} 
-.content{
-  display: flex; 
-  align-items: center; 
-  justify-content: center; 
+}
+.content {
+  display: flex;
+  align-items: center;
+  justify-content: center;
   height: 60vh;
- 
 }
 #sec02 {
   box-shadow: 2px 3px 10px black;
   height: 110vh;
   width: 50vh;
-} 
- .card-group {
-  display: flex; 
+}
+.card-group {
+  display: flex;
   justify-content: center;
-  width: 130vh; 
+  width: 130vh;
   height: 50vh;
-  
-} 
-.card-group .card{
+}
+.card-group .card {
   margin: 3vh;
 }
-#carouselExampleIndicators{
+#carouselExampleIndicators {
+  height: 30vh;
+  margin: 10vh;
+}
+#carouselExampleIndicators img {
+  width: 100%;
   height: 30vh;
 }
-#carouselExampleIndicators img{
-  width: 100%; 
-  height: 30vh;
-} 
-footer{
-  background-color: rgb(43, 43, 43); 
+footer {
+  background-color: rgb(43, 43, 43);
   color: white;
+  height: 10vh;
 }
