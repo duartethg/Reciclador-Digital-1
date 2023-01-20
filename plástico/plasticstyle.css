@@ -1,0 +1,40 @@
+* {
+  margin: 0;
+  box-sizing: border-box;
+  padding: 0;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+body {
+  display: grid;
+  width: 100%;
+  grid-template-areas: "header header" "main main" "content01 content01" "  content  aside" "content02 content02" "footer footer";
+}
+header {
+  display: grid;
+  grid-area: header;
+  background-color: red;
+}
+nav {
+  background-color: blueviolet;
+}
+#content01 {
+  display: grid;
+  grid-area: content01;
+  background-color: brown;
+}
+aside {
+  background-color: cadetblue;
+  display: grid;
+  grid-area: aside;
+}
+#content02 {
+  display: grid;
+  grid-area: content02;
+  background-color: chartreuse;
+}
+footer {
+  display: grid;
+  grid-area: footer;
+  background-color: crimson;
+  width: 100vh;
+}
